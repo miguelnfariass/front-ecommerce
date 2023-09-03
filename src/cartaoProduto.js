@@ -7,7 +7,7 @@ export function renderizarCatalogo() {
       produtoCatalogo.feminino ? "feminino " : "masculino"
     }" id="card-produto-${produtoCatalogo.id}">
   <img
-    src="/assets/img/${produtoCatalogo.imagem}"
+    src="./assets/img/${produtoCatalogo.imagem}"
     alt="Produto 1 da Gueldix Store."
     class="group-hover:scale-110 duration-300 my-3 rounded-lg"
   />
